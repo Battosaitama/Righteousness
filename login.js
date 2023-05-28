@@ -21,7 +21,7 @@ function validateLogin(event) {
   // Replace the following example condition with your own logic
   if (username === 'righteousness' && password === 'john') {
     // Redirect to the desired page upon successful login
-    window.location.href = '../meme/meme.html';
+    window.location.href = 'meme.html';
   } else {
     // Display an error message
     document.getElementById('errorText').textContent = 'Invalid username or password';
