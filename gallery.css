@@ -204,7 +204,7 @@
 }
 @media(max-width: 840px){
   .cubesection h1{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     margin-top: 100px;
   }
   #menu-icon{
@@ -252,7 +252,7 @@ body {
 }
 .polaroid {
   background: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
   
 }
