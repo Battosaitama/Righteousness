@@ -564,32 +564,32 @@ body {
 }
 
 .item2:nth-child(1) {
-  background-image: url("../drive-download-20230520T014355Z-001/Career day/john.jpg");
+  background-image: url("Career day/john.jpg");
   background-position: 72% 35%;
 }
 
 .item2:nth-child(2) {
-  background-image: url("../drive-download-20230520T014355Z-001/Random pics/145.jpg");
+  background-image: url("Random pics/145.jpg");
   background-position: 60% 8%;
 }
 
 .item2:nth-child(3) {
-  background-image: url("../drive-download-20230520T014355Z-001/Random pics/niel.jpg");
+  background-image: url("Random pics/niel.jpg");
   background-position: 52% 8%;
 }
 
 .item2:nth-child(4) {
-  background-image: url("../drive-download-20230520T014355Z-001/Random pics/186.jpg");
+  background-image: url("Random pics/186.jpg");
   background-position: 45% 8%;
 }
 
 .item2:nth-child(5) {
-  background-image: url("../drive-download-20230520T014355Z-001/Random pics/257.jpg");
+  background-image: url("Random pics/257.jpg");
   background-position: 45% 25%;
 }
 
 .item2:nth-child(6) {
-  background-image: url("../drive-download-20230520T014355Z-001/Random pics/9.jpg");
+  background-image: url("Random pics/9.jpg");
   background-position: 65% 2%;
 }
 
