@@ -184,7 +184,7 @@ header.sticky {
 section.card {
   background: #f6f6f6;
   border-radius: 24px 24px 24px 48px;
-  padding: 24px 24px 28px 250px;
+  padding: 24px 24px 28px 300px;
   margin: 84px 0px;
   width: 80vw;
   max-width: 920px;
@@ -321,20 +321,21 @@ body {
 
   section.card {
     margin: 60px 0;
-    padding: 0px 20px 50px;
+    padding: 0px 20px 20px;
     flex-direction: column;
     border-radius: 24px;
   }
 
   section.card:nth-of-type(odd) {
     
-    padding: 0px 20px 50px;
+    padding: 0px 20px 20px;
     border-radius: 24px;
 
   }
 
   section.card .text-content h3 {
-    max-width: calc(100% - 100px);
+    max-width: calc(100% - 150px);
+    margin: 25px 10px 25px;
     font-size: 1.2em;
     width: 70%;  
   }
@@ -342,7 +343,8 @@ body {
   section.card .text-content p,
   section.card .text-content a {
     font-size: 1em;
-    max-width: calc(100% - 100px);
+    max-width: calc(100% - 150px);
+    margin: 25px 10px 25px;
   }
 
   section.card .visual,
