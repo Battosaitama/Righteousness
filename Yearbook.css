@@ -375,7 +375,7 @@ body {
   }
   section.card {
     margin: 64px 0;
-    padding: 20px 36px 20px;
+    padding: 10px 10px 20px;
     flex-direction: column;
     border-radius: 24px;
   }
@@ -387,11 +387,9 @@ body {
 
   section.card .text-content h3 {
     max-width: calc(100% - 150px);
-    margin: 25px 20px 25px;
+    margin: 10px 10px 25px;
     font-size: 1em;
   }
-
-  section.card .text-content p,
   section.card .text-content a {
     font-size: 0.9em;
     max-width: calc(100% - 150px);
@@ -399,7 +397,8 @@ body {
     
   }
   section.card .text-content p {
-    margin: 25px 20px 25px;
+    max-width: calc(100% - 150px);
+    margin: 10px 10px 25px;
   }
 
   section.card .visual img,
@@ -408,6 +407,7 @@ body {
     height: 100%;
   }
 }
+
 @media(max-width: 380px){
     section.card {
         margin: 60px 0;
