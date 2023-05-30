@@ -385,6 +385,7 @@ body {
 
   section.card .text-content h3 {
     max-width: calc(100% - 100px);
+    margin: 25px 20px 25px;
     font-size: 1em;
   }
 
@@ -393,15 +394,10 @@ body {
     font-size: 0.9em;
     max-width: calc(100% - 100px);
     max-width: 15ch;
+    
   }
-
-  section.card .visual,
-  section.card:nth-of-type(odd) .visual {
-    width: 150px;
-    height: 150px;
-    right: 10px;
-    left: auto;
-    top: 10px;
+  section.card .text-content p {
+    margin: 25px 20px 25px;
   }
 
   section.card .visual img,
