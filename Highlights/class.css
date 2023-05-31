@@ -1,0 +1,328 @@
+  /* Content css*/
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+          text-decoration: none;
+          list-style: none;
+          scroll-behavior: smooth;
+        }
+    
+        :root {
+          --bg-color: #2a2a2a;
+          --second-bg-color: #202020;
+          --text-color: #fff;
+          --second-color: #ccc;
+          --main-color: blueviolet;
+          --big-font: 3rem;
+          --h2-font: 3rem;
+          --p-font: 1.1rem;
+        }
+    
+        body {
+          background: var(--bg-color);
+          color: var(--text-color);
+          background-color: lightblue;
+        }
+    
+        header {
+          position: fixed;
+          width: 100%;
+          top: 0;
+          right: 0;
+          z-index: 1000;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background: transparent;
+          padding: 22px 15%;
+          border-bottom: 1px solid transparent;
+          transition: all .45s ease;
+        }
+    
+        .logo {
+          color: var(--text-color);
+          font-size: 35px;
+          font-weight: 700;
+          letter-spacing: 1px;
+    
+        }
+    
+        span {
+          color: var(--main-color);
+        }
+    
+        .navlist {
+          display: flex;
+        }
+    
+        .navlist a {
+          color: greenyellow;
+          font-size: 18px;
+          font-weight: 500px;
+          margin: 0 25px;
+          transition: all .45s ease;
+        }
+    
+        .navlist a:hover {
+          color: var(--main-color);
+        }
+    
+        .navlist a.active {
+          color: var(--main-color);
+        }
+    
+        #menu-icon {
+          font-size: 35px;
+          color: var(--text-color);
+          z-index: 10001;
+          cursor: pointer;
+          margin-left: 25px;
+          display: none;
+        }
+    
+       
+        .home {
+          position: relative;
+          height: 125vh;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+        }
+    
+        .slide {
+          margin-bottom: 5px;
+        }
+    
+        .one {
+          display: inline-block;
+          margin-right: 5px;
+          height: 32px;
+          padding: 0 15px;
+          line-height: 32px;
+          font-size: 20px;
+          font-weight: 500;
+          border-radius: 5px;
+          background: var(--main-color);
+          color: var(--text-color);
+        }
+       
+        .two {
+          display: inline-block;
+          color: whitesmoke;
+          font-size: 20px;
+          font-weight: 500;
+        }
+        .home-text {
+          position: relative;
+          z-index: 1;
+        }
+        .home-text h1 {
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: var(--text-color);
+          list-style: 1.1;
+          margin: 0 0 5px;
+          margin-right: 100px;
+        }
+    
+        .home-text h3 {
+          color: var(--text-color);
+          margin: 0 0 5px;
+          font-size: 2.5rem;
+          font-weight: 700;
+          line-height: 1.1;
+        }
+    
+        .home-text p {
+          color: whitesmoke;
+          font-size: var(--p-font);
+          line-height: 1.8;
+          margin-bottom: 5px;
+          margin-right: 700px;
+        }
+    
+        .button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+    
+        }
+    
+        .btn {
+          display: inline-block;
+          padding: 12px 28px;
+          background: var(--main-color);
+        }
+    
+        .btn:hover {
+          transform: scale(0.9);
+        }
+        
+        header.sticky {
+          background: #b6adadcc;
+          /*border-bottom: 1px solid var(--main-color);
+        padding: 12px 15%;*/
+          opacity: 0.8;
+        }
+    
+        .gallery-text {
+          color: var(--main-color);
+          font-size: 4rem;
+          line-height: 1;
+        }
+
+/* Responsive part ni kuys*/
+@media(max-width: 1480px){
+  header{
+    padding: 12px 2.5%;
+    transition: .1s;
+  }
+  header.sticky{
+    padding: 10px;
+    transition: .1s;
+  }
+  section{
+    padding: 0px 0% 0px;
+  } 
+}
+@media(max-width: 1100px){
+  :root{
+  --big-font:4rem;
+  --h2-font: 2.5rem;
+  --p-font: 1rem;
+  transition: .1s;
+  }
+  .home-text h3{
+    font-size: 2rem;
+  }
+}
+@media(max-width: 920px){
+  .home{
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width: 840px){
+  #menu-icon{
+    display: block;
+  }
+  .navlist{
+  position: absolute;
+  top: -1000px;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;           
+  text-align: left;
+  transition: all .45 ease;
+  opacity: 0.7;
+  }
+  .navlist a{
+    display:block;
+    margin: 17px;
+    font-size: 20px;
+    transition: all .45s ease;
+    
+  }
+  .navlist.open{
+    top: 100%;
+  }
+  .slide{
+    margin-right: 0;
+  }
+  .slide p{
+    margin-right: 0;
+  }
+}
+
+
+/*  images */
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+h2{
+    opacity: 0.4;
+    font-size: 3rem;
+    
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: white;
+  background: black;
+  
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  visibility: hidden;
+}
+section .outer,
+section .inner {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+section .bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+}
+section .bg h2 {
+  z-index: 2;
+}
+section .bg .clip-text {
+  overflow: hidden;
+}
+
+.first .bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://battosaitama.github.io/Righteousness/Group%20pics/23.jpg);
+}
+
+.second .bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://battosaitama.github.io/Righteousness/Group%20pics/38.jpg);
+}
+
+.third .bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://battosaitama.github.io/Righteousness/Group%20pics/35.jpg);
+}
+
+.fourth .bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://battosaitama.github.io/Righteousness/Group%20pics/39.jpg);
+}
+
+.fifth .bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://battosaitama.github.io/Righteousness/Group%20pics/group%20pic%208.jpg);
+  background-position: 50% 45%;
+}
+
+h2 * {
+  will-change: transform;
+  margin-top: 150px;
+}
+h2.raine{
+    margin-top: 150px;   
+}
+br{
+    margin-top: 0px;
+}
