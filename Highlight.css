@@ -259,6 +259,7 @@ h1 {
   font-size: 2.6em;
   mix-blend-mode: overlay;
   pointer-events: none;
+  opacity: 0.5;
 }
 .content {
   width: 90%;
