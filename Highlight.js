@@ -4,8 +4,8 @@ const main = document.getElementById('main');
 let parts = [];
 
 let images = [
-  "https://battosaitama.github.io/Righteousness/Group%20pics/23.jpg",
   "https://battosaitama.github.io/Righteousness/Group%20pics/38.jpg",
+  "https://battosaitama.github.io/Righteousness/Group%20pics/23.jpg",
   "https://battosaitama.github.io/Righteousness/Group%20pics/35.jpg",
   "https://battosaitama.github.io/Righteousness/Group%20pics/39.jpg",
   "https://battosaitama.github.io/Righteousness/Group%20pics/group%20pic%208.jpg",
