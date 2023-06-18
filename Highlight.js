@@ -4,10 +4,10 @@ const main = document.getElementById('main');
 let parts = [];
 
 let images = [
-  "https://battosaitama.github.io/Righteousness/21/IMG_1638.JPG"
-  "https://battosaitama.github.io/Righteousness/21/IMG_1640.JPG"
-  "https://battosaitama.github.io/Righteousness/21/IMG_1653.JPG"
-  "https://battosaitama.github.io/Righteousness/21/IMG_1654.JPG"
+  "https://battosaitama.github.io/Righteousness/21/IMG_1638.JPG",
+  "https://battosaitama.github.io/Righteousness/21/IMG_1640.JPG",
+  "https://battosaitama.github.io/Righteousness/21/IMG_1653.JPG",
+  "https://battosaitama.github.io/Righteousness/21/IMG_1654.JPG",
   "https://battosaitama.github.io/Righteousness/Group%20pics/38.jpg",
   "https://battosaitama.github.io/Righteousness/Group%20pics/23.jpg",
   "https://battosaitama.github.io/Righteousness/Group%20pics/35.jpg",
